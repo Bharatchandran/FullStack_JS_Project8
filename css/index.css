@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto';
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    position: relative;
+    left: 30px;
+    
+}
+.nav-item{
+    padding: 25px;
+    font-size: 20px
+}
+.logo{
+    position: relative;
+    left:150px;
+}
+.signin-btn{
+    position: relative;
+    right: 150px;
+}
+button{
+    border-radius: 50px;
+    border-width: 0;
+    color: #fff;
+    background: linear-gradient(to right top, #6F00ED, #E1A2B8);
+    height:30px;
+    width:90px;
+}
+
+
+
+.learn-more-btn{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    bottom: 100px;
+}
+
+.intro-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 70px;
+}
+
+.left-section h1{
+    color: #2E3380;
+    font-size: 110px;
+    position: relative;
+    bottom:120px;
+}
+
+.left-section h4{
+    color: #9C9CB3;
+    width:450px;
+    position: relative;
+    bottom:160px;
+
+}
+.intro-img{
+    position: relative;
+    right: 60px;
+    bottom: 10px;
+}
+.img-backcover{
+    position: absolute;
+    right:61px;
+    z-index: -1;
+    top:-149px;
+
+height: 100vh;
+    
+    
+}
